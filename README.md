@@ -124,7 +124,7 @@ app.listen(port, () => {
 admin.initializeApp({
   credential: admin.credential.applicationDefault(),
   // Replace "your-project-id" with your actual Firebase project ID
-  databaseURL: 'https://your-project-id.firebaseio.com'
+  databaseURL: 'https://CommuniText-87a41.firebaseio.com'
   app.post('/api/verify', (req, res) => {
   const { phoneNumber } = req.body;
   
